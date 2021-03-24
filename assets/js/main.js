@@ -29,6 +29,7 @@
 		});
 
 	// Touch mode.
+	// XXX
 		if (browser.mobile)
 			$body.addClass('is-touch');
 		else {
@@ -42,6 +43,16 @@
 			});
 
 		}
+
+	// Dropdowns.
+		$('#nav > ul').dropotron({
+			hoverDelay: 50,		// Hover delay (in ms)
+			hideDelay: 500,		// Hide delay (in ms; 0 disables)
+			mode: 'fade',
+			speed: 250, // ms
+			//alignment:			'right',
+			expandMode: (browser.mobile ? 'click' : 'hover')
+		});
 
 	// Fix: IE flexbox fix.
 		if (browser.name == 'ie') {
@@ -179,6 +190,7 @@
 
 			};
 
+			// XXX
 			breakpoints.on('<=small', off);
 			breakpoints.on('>small', on);
 
@@ -199,7 +211,7 @@
 
 					// Update scrolly links.
 						$('a[href^="#"]').scrolly({
-							speed: 1500,
+							speed: 1000,
 							offset: $header.outerHeight() - 1
 						});
 
