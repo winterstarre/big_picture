@@ -1669,7 +1669,7 @@ input, select, textarea {
 			}
 
 		@media screen and (max-width: 480px) {
-
+/*
 			.gallery {
 				-moz-flex-wrap: nowrap;
 				-webkit-flex-wrap: nowrap;
@@ -1684,7 +1684,7 @@ input, select, textarea {
 				.gallery article {
 					width: 100%;
 				}
-
+*/
 		}
 
 /* Header */
