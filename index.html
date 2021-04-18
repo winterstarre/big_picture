@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Artfoyer</title>
+		<title data-i18n="header.title">Artfoyer</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -16,21 +16,21 @@
 
 		<!-- Header -->
 			<header id="header">
-				<h1>Artfoyer</h1>
+				<h1 data-i18n="header.title">Artfoyer</h1>
 				<nav id="nav">
 					<ul>
-						<li><a href="#intro">Intro</a></li>
-						<li><a href="#who">Who I Am</a></li>
+						<li><a data-i18n="intro.title" href="#intro">Intro</a></li>
+						<li><a data-i18n="who.title" href="#who">Who I Am</a></li>
 						<!-- <li><a href="#what">What I Do</a></li> -->
 						<li class="submenu">
-							<a href="#">Works</a>
+							<a data-i18n="header.works" href="#">Works</a>
 							<ul>
-								<li><a href="#simplicity">Simplicity</a></li>
-								<li><a href="#spring">Spring</a></li>
-								<li><a href="https://winterstarre.artfoyer.org/">Winterstarre <i class="icon fa-external-link-alt" aria-hidden="true"><span class="label">External link</span></i></a></li>
+								<li><a data-i18n="simplicity.title" href="#simplicity">Simplicity</a></li>
+								<li><a data-i18n="spring.title" href="#spring">Spring</a></li>
+								<li><a href="https://winterstarre.artfoyer.org/"><span data-i18n="links.winterstarre">Winterstarre</span> <i class="icon fa-external-link-alt" aria-hidden="true"><span data-i18n="nav.ext_link" class="label">External link</span></i></a></li>
 							</ul>
 						</li>
-						<li><a href="#contact">Contact</a></li>
+						<li><a data-i18n="contact.title" href="#contact">Contact</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -39,12 +39,12 @@
 			<section id="intro" class="main style1 dark fullscreen">
 				<div class="content">
 					<header>
-						<h2>Hey.</h2>
+						<h2 data-i18n="intro.hey">Hey.</h2>
 					</header>
-					<p>Welcome to Artfoyer, an independent art space in Faellanden, Switzerland, close to the shores of Greifensee. 
+					<p data-i18n="intro.content">Welcome to Artfoyer, an independent art space in Faellanden, Switzerland, close to the shores of Greifensee. 
 					The current exhibition of watercolors by artist Anca Sinpalean explores the transition from winter to spring.</p>
 					<footer>
-						<a href="#who" class="button style2 down">More</a>
+						<a data-i18n="nav.more" href="#who" class="button style2 down">More</a>
 					</footer>
 				</div>
 			</section>
@@ -53,13 +53,13 @@
 			<section id="who" class="main style2 left dark fullscreen">
 				<div class="content box style2">
 					<header>
-						<h2>Who I Am</h2>
+						<h2 data-i18n="who.title">Who I Am</h2>
 					</header>
-					<p>I am a Romanian artist and curator living and working in Switzerland since 2006. For me, curating and making art are two complementary ways of researching life, as well as two great channels for creating connections between people.
+					<p data-i18n="who.content">I am a Romanian artist and curator living and working in Switzerland since 2006. For me, curating and making art are two complementary ways of researching life, as well as two great channels for creating connections between people.
 					I was trained as a painter in Romania in the 90s at the Cluj-Napoca Art School and at the Academy of Fine Arts in Bucharest, where I obtained my Masters degree in Visual Arts in 2005. After arriving in Switzerland in 2006, I studied at the Zürcher Hochschule der Künste and got my Master in Advanced Studies in Curating in 2010. This is when I started to curate exhibitions, manage an art space, and act as an artist-curator on the Zurich art scene.
 					For the past two years I have been focusing on watercolor as a medium, fascinated by its intrinsic qualities, like its potential for capturing light. The works are mostly realistic explorations of nature and strive for simplicity of gesture and motives. </p>
 				</div>
-				<a href="#simplicity" class="button style2 down anchored">Next</a>
+				<a data-i18n="nav.next" href="#simplicity" class="button style2 down anchored">Next</a>
 			</section>
 
 		<!-- What -->
@@ -79,7 +79,7 @@
 			<section id="simplicity" class="main style3 primary">
 				<div class="content">
 					<header>
-						<h2>Simplicity</h2>
+						<h2 data-i18n="simplicity.title">Simplicity</h2>
 					</header>
 
 					<!-- Gallery  -->
@@ -156,14 +156,14 @@
 						</div>
 
 				</div>
-				<a href="#spring" class="button style2 down anchored">Next</a>
+				<a data-i18n="nav.next" href="#spring" class="button style2 down anchored">Next</a>
 			</section>
 
 		<!-- Spring -->
 			<section id="spring" class="main style3 secondary">
 				<div class="content">
 					<header>
-						<h2>Spring</h2>
+						<h2 data-i18n="spring.title">Spring</h2>
 					</header>
 
 					<!-- Gallery  -->
@@ -247,24 +247,24 @@
 						</div>
 
 				</div>
-				<a href="#contact" class="button style2 down anchored">Next</a>
+				<a data-i18n="nav.next" href="#contact" class="button style2 down anchored">Next</a>
 			</section>
 
 		<!-- Contact -->
 			<section id="contact" class="main style3 primary">
 				<div class="content">
 					<header>
-						<h2>Say Hello.</h2>
+						<h2 data-i18n="contact.say_hello">Say Hello.</h2>
 					</header>
 					<div class="box">
 						<form method="post" action="https://formspree.io/f/meqvqjgv">
 							<div class="fields">
-								<div class="field half"><input type="text" name="name" placeholder="Name" /></div>
-								<div class="field half"><input type="email" name="_replyto" placeholder="Email" /></div>
-								<div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+								<div class="field half"><input data-i18n="contact.name" data-i18n-attr="placeholder" type="text" name="name" placeholder="Name" /></div>
+								<div class="field half"><input data-i18n="contact.email" data-i18n-attr="placeholder" type="email" name="_replyto" placeholder="Email" /></div>
+								<div class="field"><textarea data-i18n="contact.message" data-i18n-attr="placeholder" name="message" placeholder="Message" rows="6"></textarea></div>
 							</div>
 							<ul class="actions special">
-								<li><input type="submit" value="Send Message" /></li>
+								<li><input data-i18n="contact.submit" data-i18n-attr="value" type="submit" value="Send Message" /></li>
 							</ul>
 						</form>
 					</div>
@@ -286,7 +286,11 @@
 
 				<!-- Menu -->
 					<ul class="menu">
-						<li>&copy; Anca Sinpalean</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Anca Sinpalean</li><li><span data-i18n="nav.design">Design</span>: <a href="https://html5up.net">HTML5 UP</a></li>
+					</ul>
+					<ul class="menu">
+						<li><a href="#" onclick="translator.translatePageTo('en'); return false;">EN</a/</li>
+						<li><a href="#" onclick="translator.translatePageTo('de'); return false;">DE</a/</li>
 					</ul>
 
 			</footer>
@@ -299,6 +303,97 @@
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/translator.min.js"></script>
+			<script>
+				  var en = {
+					header: {
+						title: 'Artfoyer',
+						works: 'Works',
+					},
+					intro: {
+						title: 'Intro',
+						hey: 'Hey.',
+						content: 'Welcome to Artfoyer, an independent art space in Faellanden, Switzerland, close to the shores of Greifensee. The current exhibition of watercolors by artist Anca Sinpalean explores the transition from winter to spring.',
+					},
+					who: {
+						title: 'Who I Am',
+						content: '<p>I am a Romanian artist and curator living and working in Switzerland since 2006. For me, curating and making art are two complementary ways of researching life, as well as two great channels for creating connections between people. ' +
+							'<p>I was trained as a painter in Romania in the 90s at the Cluj-Napoca Art School and at the Academy of Fine Arts in Bucharest, where I obtained my Masters degree in Visual Arts in 2005. After arriving in Switzerland in 2006, I studied at the Zürcher Hochschule der Künste and got my Master in Advanced Studies in Curating in 2010. This is when I started to curate exhibitions, manage an art space, and act as an artist-curator on the Zurich art scene. ' +
+							'<p>For the past two years I have been focusing on watercolor as a medium, fascinated by its intrinsic qualities, like its potential for capturing light. The works are mostly realistic explorations of nature and strive for simplicity of gesture and motives.',
+					},
+					simplicity: {
+						title: 'Simplicity',
+					},
+					spring: {
+						title: 'Spring',
+					},
+					contact: {
+						title: 'Contact',
+						say_hello: 'Say Hello.',
+						name: 'Name',
+						email: 'Email',
+						message: 'Message',
+						submit: 'Send Message',
+					},
+					links: {
+						winterstarre: 'Winterstarre',
+					},
+					nav: {
+						more: 'More',
+						next: 'Next',
+						ext_link: 'External link',
+						design: 'Design',
+					},
+				  };
+
+				  var de = {
+					header: {
+						title: 'Artfoyer',
+						works: 'Werke',
+					},
+					intro: {
+						title: 'Intro',
+						hey: 'Grüezi.',
+						content: 'Willkommen im Artfoyer, einem unabhängigen Kunstraum in Fällanden, Schweiz, in der Nähe vom Greifensee. Die aktuelle Ausstellung mit Aquarellbildern von Anca Sinpalean untersucht den Übergang vom Winter zum Frühling.',
+					},
+					who: {
+						title: 'Wer ich bin',
+						content: '<p><i>"Mit ihren Werken will Anca Sinpalean Brücken in die Luft werfen, in der Hoffnung, dass sich jemand danach ausstreckt, um das andere Ende anzufangen."</i><br> (Katja Baumhoff, Der Landbote, 2014) ' +
+							'<p>Ich wurde als Künstlerin in Rumänien ausgebildet, bevor ich 2006 in die Schweiz kam. Nach Abschluss meines Masterstudiums in Curating an der ZHdK in 2010 gründete und leitete ich für vier Jahre einen Kunstraum für zeitgenössische Kunst in Zürich, Artfoyer Cavigelli und organisierte Ausstellungen innerhalb und ausserhalb von Galerien. ' +
+							// '<p>Aus meiner wachsenden Faszination für die Natur als Quelle der Inspiration sowie als Ausstellungsort ist Kunstlauf Meilen entstanden, eine Open-Air Ausstellung am Panoramaweg Toggwil / Meilen, welche das Kunstpublikum und die Wanderer mit 21 Installationen von 16 KünstlernInnen während des Sommers vom 2014 begeistert hat. (www.kunstlauf.ch) ' +
+							'<p>In den letzten zwei Jahren, nachdem ich als Künstlerin vor allem Installationen mit lebensgrossen Figuren im Innen- und Aussenraum ausgestellt habe, habe ich mich auf das Medium Aquarell konzentriert. Meine jetzigen Arbeiten sind meist realistische Erkundungen der Natur und streben nach Einfachheit von Gesten und Motiven.',
+					},
+					simplicity: {
+						title: 'Essenz',
+					},
+					spring: {
+						title: 'Frühling',
+					},
+					contact: {
+						title: 'Kontakt',
+						say_hello: 'Sag Hallo.',
+						name: 'Name',
+						email: 'Email',
+						message: 'Nachricht',
+						submit: 'Nachricht Senden',
+					},
+					links: {
+						winterstarre: 'Winterstarre',
+					},
+					nav: {
+						more: 'Mehr',
+						next: 'Weiter',
+						ext_link: 'Externer link',
+						design: 'Design',
+					},
+				  };
+
+				  // Create a new instance of the translator.
+				  var translator = new Translator();
+
+				  // Add languages to the translator and translate the page.
+				  translator.add('en', en).add('de', de).translatePageTo();
+			</script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
